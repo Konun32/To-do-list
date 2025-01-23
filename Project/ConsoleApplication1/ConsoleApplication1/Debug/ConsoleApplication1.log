@@ -1,0 +1,9 @@
+﻿  ConsoleApplication1.cpp
+C:\Users\LexaD\OneDrive\Рабочий стол\Магистратура\1 семестр\Project\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(115,27): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\LexaD\OneDrive\Рабочий стол\Магистратура\1 семестр\Project\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(122,43): warning C4018: <=: несоответствие типов со знаком и без знака
+C:\Users\LexaD\OneDrive\Рабочий стол\Магистратура\1 семестр\Project\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(139,27): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\LexaD\OneDrive\Рабочий стол\Магистратура\1 семестр\Project\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(154,27): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\LexaD\OneDrive\Рабочий стол\Магистратура\1 семестр\Project\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(162,43): warning C4018: <=: несоответствие типов со знаком и без знака
+C:\Users\LexaD\OneDrive\Рабочий стол\Магистратура\1 семестр\Project\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(179,27): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\LexaD\OneDrive\Рабочий стол\Магистратура\1 семестр\Project\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(186,43): warning C4018: <=: несоответствие типов со знаком и без знака
+  ConsoleApplication1.vcxproj -> C:\Users\LexaD\OneDrive\Рабочий стол\Магистратура\1 семестр\Project\ConsoleApplication1\Debug\ConsoleApplication1.exe
