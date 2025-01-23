@@ -1,23 +1,23 @@
 ﻿// ConsoleApplication1.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
 //
 
-// C++ Program to implement the to do list
+// C++ программа to do list
 #include <iostream>
 #include <string>
 #include <vector>
 
 using namespace std;
 
-// Define Task class
+// Определение класса задач
 class Task {
 private:
-    string name; // Task name
-    string description; // Task description
-    string dueDate; // Task due date
-    bool completed; // Task completion status
+    string name; // Название задачи
+    string description; // Описание задачи
+    string dueDate; // Дата задачи
+    bool completed; // Статус выполнения
 
 public:
-    // Constructor to initialize a task
+    // Конструктор для инициализации задачи
     Task(const string& name, const string& description,
         const string& dueDate)
         : name(name)
@@ -27,37 +27,37 @@ public:
     {
     }
 
-    // Getter for task name
+    // Средство получения имени задачи
     string getName() const { return name; }
 
-    // Getter for task description
+    // Средство получения описания задачи
     string getDescription() const { return description; }
 
-    // Getter for task due date
+    // Средство получения даты задачи
     string getDueDate() const { return dueDate; }
 
-    // Getter for task completion status
+    // Средство получения статуса выполнения задачи
     bool isCompleted() const { return completed; }
 
-    // Setter for task name
+    // Средство настройки имени задачи
     void setName(const string& name) { this->name = name; }
 
-    // Setter for task description
+    // Средство настройки описания задачи
     void setDescription(const string& description)
     {
         this->description = description;
     }
 
-    // Setter for task due date
+    // Средство настройки даты задачи
     void setDueDate(const string& dueDate)
     {
         this->dueDate = dueDate;
     }
 
-    // Mark the task as completed
+    // Отметьте задачу как выполненную
     void markCompleted() { completed = true; }
 
-    // Display task details
+    // Отображение сведений о задаче
     void displayTask() const
     {
         cout << name << " ("
@@ -67,13 +67,13 @@ public:
     }
 };
 
-// Define ToDoList class
+// Определить класс ToDoList
 class ToDoList {
 private:
-    vector<Task> tasks; // List of tasks
+    vector<Task> tasks; // Список задач
 
 public:
-    // Display the menu
+    // Отобразить меню
     void displayMenu()
     {
         cout
@@ -88,7 +88,7 @@ public:
             "\n";
     }
 
-    // Add a new task
+    // Добавление новой задачи
     void addTask()
     {
         string name, description, dueDate;
@@ -104,7 +104,7 @@ public:
         cout << "Task added successfully!" << endl;
     }
 
-    // Delete a task
+    // Удаление задачи
     void deleteTask()
     {
         if (tasks.empty()) {
@@ -128,7 +128,7 @@ public:
         }
     }
 
-    // Display all tasks
+    // Отобразить все задачи
     void displayTasks()
     {
         if (tasks.empty()) {
@@ -142,7 +142,7 @@ public:
         }
     }
 
-    // Mark a task as completed
+    // Отметьте задачу как выполненную
     void markTaskCompleted()
     {
         if (tasks.empty()) {
@@ -168,7 +168,7 @@ public:
         }
     }
 
-    // Edit a task
+    // Редактировать задачу
     void editTask()
     {
         if (tasks.empty()) {
@@ -207,7 +207,7 @@ public:
         }
     }
 
-    // Run the to-do list application
+    // Запустите приложение "список дел"
     void run()
     {
         int choice;
@@ -243,10 +243,10 @@ public:
     }
 };
 
-// Main function
+// Главная функция
 int main()
 {
-    // Create a ToDoList object and run the application
+    // Создайте объект списка дел и запустите приложение
     ToDoList toDoList;
     toDoList.run();
     return 0;
